@@ -1,0 +1,8 @@
+
+MESSAGE(STATUS "This is BINARY dir" ${HEllO_BINARY_DIR})
+
+MESSAGE(STATUS "This is SOURCE dir" ${HEllO_SOURCE_DIR})
+
+ADD_EXECUTABLE(udpSend udpSend.cpp)
+
+ADD_EXECUTABLE(udpRev udpRev.cpp)

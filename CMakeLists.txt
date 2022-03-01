@@ -1,0 +1,3 @@
+PROJECT (LinuxUDP)
+
+ADD_SUBDIRECTORY(src bin)
